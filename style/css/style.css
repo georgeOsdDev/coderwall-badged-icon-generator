@@ -1,0 +1,54 @@
+.display-none {
+  display: none;
+}
+body {
+  margin-top: 40px;
+  font-family: 'Oxygen Mono', arial, sans-serif;
+  text-align: center;
+  margin: auto;
+}
+#headSection {
+  background: #fff;
+}
+#mainSection {
+  background: #fff;
+}
+#srcIcon {
+  display: block;
+  margin: auto;
+  width: 210px;
+  height: 210px;
+}
+#inputName {
+  width: 210px;
+  font-family: 'Oxygen Mono', arial, sans-serif;
+}
+#navSection {
+  background: #8bcced url("https://d2h0j0bhq7ad3b.cloudfront.net/assets/home/dot-arrow-e6feccedcc9073737039ff2b891aaaec.png") no-repeat center 50px;
+  padding-top: 320px;
+  padding-bottom: 50px;
+}
+#navSection2 {
+  background: #8bc682 url("https://d2h0j0bhq7ad3b.cloudfront.net/assets/home/dot-arrow-e6feccedcc9073737039ff2b891aaaec.png") no-repeat center 50px;
+  padding-top: 320px;
+  padding-bottom: 50px;
+}
+hr.soften {
+  margin: 5px 0 5px 0;
+  height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(0,0,0,0)), color-stop(0.33333333333333326, rgba(0,0,0,0.1)), color-stop(1, rgba(0,0,0,0)));
+  background-image: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 33.33333333333333%, rgba(0,0,0,0) 100%);
+  background-image: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 33.33333333333333%, rgba(0,0,0,0) 100%);
+  background-image: -o-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 33.33333333333333%, rgba(0,0,0,0) 100%);
+  background-image: -ms-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 33.33333333333333%, rgba(0,0,0,0) 100%);
+  background-image: linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 33.33333333333333%, rgba(0,0,0,0) 100%);
+  border: 0;
+}
+.footer {
+  padding: 10px 0;
+  margin-top: 10px;
+  text-align: left;
+}
+.footer p {
+  margin-bottom: 0;
+}
