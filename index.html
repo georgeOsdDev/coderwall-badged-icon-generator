@@ -2,31 +2,36 @@
 <html lang="en-US">
 <head>
   <meta charset="UTF-8">
-
-<meta charset="utf-8">
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="title" content="coderwall-badged-icon-generator">
-<meta name="author" content="Takeharu.Oshida">
-<meta name="email" content="georgeosddev@email.com">
-<meta name="description" content="Create coderwall-badged-icon For Talented Geeks.">
-<meta name="keywords" content="github, icon, coderwall, badge, generator, george_osd">
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="title" content="coderwall-badged-icon-generator">
+  <meta name="author" content="Takeharu.Oshida">
+  <meta name="email" content="georgeosddev@email.com">
+  <meta name="description" content="Create coderwall-badged-icon For Talented Geeks.">
+  <meta name="keywords" content="github, icon, coderwall, badge, generator, george_osd">
 
   <title>coderwall-badged-icon-generator</title>
   <link href='http://fonts.googleapis.com/css?family=Oxygen+Mono' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="vendor/iealert/css/style.css"/>
   <link rel="stylesheet" href="vendor/bootstrap2.1.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://google-code-prettify.googlecode.com/svn/trunk/src/prettify.css">
   <link rel="stylesheet" href="style/css/style.css"/>
 </head>
 <body>
+  <div id="fb-root"></div>
   <section id="headSection" class="">
     <div class="container">
       <div class="row page-header">
         <div id="title">
           <h2>coderwall-badged Icon Generator</h2>
           <p>For Talented Geeks.</p>
+          <p>
+            <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=georgeosddev&amp;repo=coderwall-badged-icon-generator&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="100px" height="20px"></iframe>
+            <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=georgeosddev&amp;repo=coderwall-badged-icon-generator&amp;type=fork&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="98px" height="20px"></iframe>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://georgeosddev.github.com/coderwall-badged-icon-generator">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </p>
         </div>
       </div>
     </div>
@@ -37,7 +42,7 @@
       <div class="row">
         <div id="srcImg" class="span4 offset4">
           <img id="srcIcon" src="image/gravatar-user-420.png" class="img-polaroid" alt="">
-          <div id="coderwall-badged-icon" class="coderwall-badged-icon img-polaroid display-none">
+          <div class="coderwall-badged-icon display-none">
           </div><!-- / -->
         </div>
       </div>
@@ -84,10 +89,10 @@
       <div class="container">
         <div class="row">
           <div id="footerMain" class="span12">
-            <p>Coderwall-badged icon generator</p>
+            <p>Coderwall-badged Icon Generator is an unofficial application.There is no relationship and responsibility with github, coderwall, and gravator.</p>
             <p>Powerd by <a href="http://www.w3.org/TR/2dcontext/" target="_blank">HTML5's canvas</a>,&nbsp;<a href="http://backbonejs.org/" target="_blank">backbone.js</a>&nbsp;<a href="http://jquery.com/" target="_blank" title="jQuery">jQuery</a>,&nbsp;and&nbsp;<a href="http://twitter.github.com/bootstrap/index.html" target="_blank" title="bootstrap">Twitter-Bootstrap</a>.</p>
             <p>Developed by <a href="http://about.me/takeharu.oshida" target="_blank" title="about me">Takeharu.Oshida</a></p>
-            <p>Source code can be found on <a href="https://github.com/georgeOsdDev/cwb-icon.js" target="_blank">github</a>, licenced under <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT</a>.And Document can be found <a href="https://github.com/georgeOsdDev/cwb-icon.js/blob/master/ReadMe.md" target="_blank">Here</a>.</p>
+            <p>Source code can be found on <a href="https://github.com/georgeOsdDev/coderwall-badged-icon-generator" target="_blank">github</a>, licenced under <a href="http://opensource.org/licenses/mit-license.php" target="_blank">MIT</a>.And Document can be found <a href="https://github.com/georgeOsdDev/coderwall-badged-icon-generator/blob/master/ReadMe.md" target="_blank">Here</a>.</p>
           </div>
         </div>
       </div>
@@ -105,7 +110,7 @@
   <script src="vendor/canvas2image/canvas2image.js"></script>
   <script src='vendor/bootstrap2.1.0/js/bootstrap.min.js'></script>
   <script src="vendor/iealert/js/iealert.min.js"></script>
-  <script src="javascript/main.js"></script>
+  <script src="javascript/application.js"></script>
   <script>var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-15502477-11']);
     _gaq.push(['_trackPageview']);

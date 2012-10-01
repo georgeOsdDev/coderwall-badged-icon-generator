@@ -31,8 +31,13 @@ $(function(){
       width:210,
       heiht:210,
       position:"bottom-left",
-      direction:"horizontal"
+      direction:"horizontal",
+      background: "rgba(186, 203, 216, 0.5)",
+      badge_w: 50,
+      badge_h: 50,
+      proxy:"http://allow-any-origin.appspot.com/"
     };
+
     // set callback
     // On `success` 
     var success = function(){
@@ -40,7 +45,8 @@ $(function(){
       $("#srcIcon").remove();
       $("#saveBtn").addClass("enabled").removeClass("disabled");
       $("#progress-bar").attr("style", "width: 100%;").addClass("bar-success").removeClass("progress-striped");
-      $("#coderwall-badged-icon").removeClass('display-none');
+      $(".coderwall-badged-icon").removeClass('display-none');
+      $("#output").addClass("img-polaroid");
       $("#navSection").removeClass('display-none');
     }
     // On `fail`
