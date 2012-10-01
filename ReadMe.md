@@ -2,7 +2,7 @@
 Create icon with coderwall badges.
 
 #### Demo
-[Apps]()
+[Apps](http://georgeosddev.github.com/coderwall-badged-icon-generator/)
 
 #### Usage
 
