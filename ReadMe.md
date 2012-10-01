@@ -53,6 +53,9 @@ You can use this as blogparts
 
 #### Licence
 
-Source code can be found on github, licenced under MIT.And Document can be found Here.
-Coderwall-badged Icon Generator is an unofficial application.There is no relationship and responsibility with github, coderwall, and gravator.
+Source code can be found on [github](https://github.com/georgeOsdDev/coderwall-badged-icon-generator), licenced under [MIT](http://opensource.org/licenses/mit-license.php). And Document can be found [Here](https://github.com/georgeOsdDev/coderwall-badged-icon-generator/blob/master/ReadMe.md).
+
+Coderwall-badged Icon Generator is an unofficial application.
+
+There is no relationship and responsibility with github, coderwall, and gravator.
 
